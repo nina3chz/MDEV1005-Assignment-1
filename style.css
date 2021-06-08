@@ -47,17 +47,6 @@ h1, h2, h3{
     padding-bottom: 15px;
 }
 
-/* STEP 2: MULTIPLE ELEMENTS IN ONE - Header & Footer - Create a CSS rule that applies to the header and footer, text-aligns in the center, white text, background color of the flower image, and font-size 30px*/
-
-/*footer{
-    padding: 30px;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-}
-*/
-
-/* STEP 4: Paragraph dynamic width - Make a CSS rule that sets the width of a paragraph element to 50% */
 p, ul {
     text-align:justify;
     color: #E1E5F2;
@@ -110,10 +99,3 @@ img {
 .toggler {
     color: #E1E5F2;
 }
-/*
-   border-radius: 25%;
-   height: 15%;
-   width: 15%;
-   margin-bottom: 50px;
-   margin-top: 50px;
-   */

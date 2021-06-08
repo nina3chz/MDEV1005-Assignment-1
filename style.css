@@ -1,0 +1,119 @@
+/* html font family: nunito, sans-serif */
+html {
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #022B3A;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* just used to color the background of the page */
+.example {
+    background-color: #022B3A;
+}
+
+/* Navbar colors */
+.topnav {
+    background-color: #022B3A;
+    margin: 0;
+}
+
+.topnav a {
+    color: #E1E5F2;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: 3px transparent;
+}
+
+.topnav a:hover {
+    color: #92C2F2;
+    border-bottom: 3px dotted #92C2F2;
+}
+
+.topnav a.active {
+    color: #1F7A8C;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: 3px solid #1F7A8C;
+}
+
+h1, h2, h3{
+    color: #FFAF87;
+    font-family: 'Kiwi Maru', serif;
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+/* STEP 2: MULTIPLE ELEMENTS IN ONE - Header & Footer - Create a CSS rule that applies to the header and footer, text-aligns in the center, white text, background color of the flower image, and font-size 30px*/
+
+/*footer{
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+*/
+
+/* STEP 4: Paragraph dynamic width - Make a CSS rule that sets the width of a paragraph element to 50% */
+p, ul {
+    text-align:justify;
+    color: #E1E5F2;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+b {
+    color: #2592A7;
+}
+
+div a {
+    color: #92C2F2;
+    text-decoration: none;
+}
+
+div a:hover {
+    color: #92C2F2;
+    border-bottom: 3px dotted #92C2F2;
+}
+
+.video-container {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.video {
+    border: none;
+    display: block;
+    width:100%;
+    height:250px;
+}
+
+/*STEP 6: Create a div container - Make a CSS rule that centers the containing div around the paragraphs and adds a border around all the text.*/
+.container {
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background-color: #05394c;
+    padding: 10px;
+}
+
+img {
+   display: block;
+   border-radius: 10%;
+}
+
+.toggler {
+    color: #E1E5F2;
+}
+/*
+   border-radius: 25%;
+   height: 15%;
+   width: 15%;
+   margin-bottom: 50px;
+   margin-top: 50px;
+   */
